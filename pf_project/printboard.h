@@ -1,5 +1,3 @@
-#include "header.h"
-
 void printboard()
 {
     HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
