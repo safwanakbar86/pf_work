@@ -1,16 +1,19 @@
 #include "header.h"
+#include "fillboard.h"
 #include "printboard.h"
+
 #include "menu.h"
+#include "newgame.h"
+
+#include "number.h"
+#include "check.h"
+#include "score.h"
+#include "winPredictor.h"
+
 #include "swipeup.h"
 #include "swipedown.h"
 #include "swipeleft.h"
 #include "swiperight.h"
-#include "newgame.h"
-#include "number.h"
-#include "fillboard.h"
-#include "check.h"
-#include "score.h"
-#include "winPredictor.h"
 
 void printboard();
 void menu();
