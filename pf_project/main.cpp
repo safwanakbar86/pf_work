@@ -13,9 +13,7 @@ int main()
         system("cls");
         cout << endl << endl;
 
-       // if (::nofill != 0)
-            fillboard();
-        //::nofill = 0;
+        fillboard();
 
         printboard();
         score('?');
